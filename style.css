@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  height: 100%;
+  font-size: 16px;
+  font-family: Verdana;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: grey;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.sectionlight {
+  color: grey;
+  background-color: ivory;
+}
+
+.sectiondark {
+  color: ivory;
+  background-color: rgb(61, 61, 150);
+}
+
+.partext {
+  top: 50%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-size: 36px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.partext .border {
+  background-color: black;
+  color: aliceblue;
+  padding: 10px;
+  
+}
+
+.partext .border.trans {
+  background-color: transparent;
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  .img-circle {
+    width: 50%;
+  }
+}
+
+.parimg1, .parimg2, .parimg3 {
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.parimg1 {
+  background-image: url("https://cdn-images-1.medium.com/max/1600/1*l-mjZ0Ym-VzDSrSW6nvfqA.jpeg");
+  width: 100%;
+  min-height: 400px;
+}
+
+.parimg2 {
+  background-image: url("https://cdn-images-1.medium.com/max/1200/1*uczUaOV2muVEvFoJCWMDDA.jpeg");
+  min-height: 400px;
+}
+
+.parimg3 {
+  background-image: url("https://www.creativelive.com/blog/wp-content/uploads/2016/11/full.jpeg");
+  min-height: 400px;
+}
+/*# sourceMappingURL=style.css.map */

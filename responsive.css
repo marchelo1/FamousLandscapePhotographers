@@ -1,0 +1,25 @@
+@media only screen and (max-width: 600px) {
+
+    .partext {
+        top: 50%;
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        color: black;
+        font-size: 24px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
+.partext .border {
+    background-color: black;
+    color: aliceblue;
+ 
+  }
+
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .img-circle {
+      width: 50%;
+    }
+  }
